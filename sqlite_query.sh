@@ -4,7 +4,6 @@
 
 LEVEL=level$1
 SUBSTITUTE=s/level20/${LEVEL}/
-echo $SUBSTITUTE
 
 if [ ! -f tree.db ]; then
     echo "creating tree.db ......"
