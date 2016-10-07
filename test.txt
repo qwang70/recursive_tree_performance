@@ -1,0 +1,10 @@
+Error: near line 6: database disk image is malformed
+Error: near line 7: database disk image is malformed
+Error: near line 19: database disk image is malformed
+Error: near line 20: database disk image is malformed
+
+real	0m0.012s
+user	0m0.002s
+sys	0m0.006s
+-- Loading resources from /Users/wangqiwen/.sqliterc
+Error: database disk image is malformed

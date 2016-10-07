@@ -1,0 +1,15 @@
+% FACT: tree_edge(child, parent)
+tree_edge(2,1).
+tree_edge(3,1).
+tree_edge(4,2).
+tree_edge(5,2).
+tree_edge(6,3).
+tree_edge(7,3).
+tree_edge(8,4).
+tree_edge(9,4).
+tree_edge(10,5).
+tree_edge(11,5).
+tree_edge(12,6).
+tree_edge(13,6).
+tree_edge(14,7).
+tree_edge(15,7).
