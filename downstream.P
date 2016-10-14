@@ -4,6 +4,3 @@ tree_downstream(ChildNode, ParentNode) :-
 tree_downstream(DescendentNode, ParentNode) :-
     tree_edge(DescendentNode, ChildNode),
     tree_downstream(ChildNode, ParentNode).
-
-%printall(tree_downstream(_, 1)).
-%printall(count(tree_downstream(_, 1),_)).

@@ -12,7 +12,7 @@ if [ ! -f tree.db ]; then
 fi
 
 cat query.sql | sed $SUBSTITUTE > temp.sql
-time sqlite3 tree.db < temp.sql
+sqlite3 tree.db < temp.sql
 echo "All descendents of the tree root found"
 rm -rf temp.sql
 

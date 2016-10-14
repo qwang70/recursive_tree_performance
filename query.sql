@@ -4,6 +4,9 @@
 /*Select julianday('now’);*/
 
 DROP TABLE IF EXISTS data_downstream_reduced;
+
+.timer on
+
 CREATE TABLE data_downstream_reduced AS
 WITH RECURSIVE data_down(x,y) AS
 (SELECT child_data_id, parent_data_id
@@ -14,6 +17,8 @@ FROM data_down, level20
 ON data_down.x = parent_data_id
 WHERE data_down.x != data_down.y)
 SELECT x AS descendent_data_id, y AS ancestor_data_id FROM data_down;
+
+.timer off
 
 /*Select julianday('now');
 
