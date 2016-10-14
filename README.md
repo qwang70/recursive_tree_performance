@@ -6,4 +6,4 @@ The [YesWorkflow project](https://github.com/yesworkflow-org/yw-prototypes/tree/
 
 ## Recursive tree performance experiment
 
-In this experiment, we created a dataset of full binary tree. The data shows the edges of each tree, and the data contains tree of levels from 2 to 20, meaning there're tree with nodes from $2^2-1$ to $2^20-1$.
+In this experiment, we created a dataset of full binary tree. The data shows the edges of each tree, and the data contains tree of levels from 2 to 20, meaning there're tree with number of nodes from 2^2-1 to 2^20-1.
