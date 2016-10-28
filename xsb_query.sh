@@ -9,16 +9,15 @@ xsb -p --quietload --noprompt --nofeedback --nobanner << END_XSB_STDIN
 
 ['$LEVEL'].
 ['downstream'].
-['general_rules'].
 ['xsb_profiling'].
 
 set_prolog_flag(unknown, fail).
-write('%$LEVEL statistics'), eol.
-write('%...................................................................................................'), eol.
+write('%$LEVEL statistics\n'), eol.
+write('%...................................................................................................\n'), eol.
 
 profile_call(tree_downstream(_, 1)).
 
-write('%...................................................................................................'), eol.
+write('%...................................................................................................\n'), eol.
 
 
 END_XSB_STDIN
