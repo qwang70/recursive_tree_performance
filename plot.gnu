@@ -1,5 +1,5 @@
-set terminal png
-set output 'tree_level_vs_time.png'
+set terminal svg
+set output 'tree_level_vs_time.svg'
 
 set multiplot layout 1, 2 title "Runtime Comparison on Recursive Tree" font ",14"
 set tmargin 2

@@ -8,7 +8,7 @@ Total Count: 0
 
 %...................................................................................................
 Run sqlite recursive query:
-Run Time: real 0.001 user 0.000247 sys 0.000468
+Run Time: real 0.001 user 0.000227 sys 0.000357
 All descendents of the tree root found
 ############################# tree level 3 #############################
 Run xsb recursive query:
@@ -20,7 +20,7 @@ Total Count: 0
 
 %...................................................................................................
 Run sqlite recursive query:
-Run Time: real 0.001 user 0.000287 sys 0.000410
+Run Time: real 0.002 user 0.000347 sys 0.000679
 All descendents of the tree root found
 ############################# tree level 4 #############################
 Run xsb recursive query:
@@ -32,7 +32,7 @@ Total Count: 0
 
 %...................................................................................................
 Run sqlite recursive query:
-Run Time: real 0.001 user 0.000262 sys 0.000398
+Run Time: real 0.001 user 0.000240 sys 0.000400
 All descendents of the tree root found
 ############################# tree level 5 #############################
 Run xsb recursive query:
@@ -44,7 +44,7 @@ Total Count: 0
 
 %...................................................................................................
 Run sqlite recursive query:
-Run Time: real 0.001 user 0.000299 sys 0.000403
+Run Time: real 0.001 user 0.000282 sys 0.000424
 All descendents of the tree root found
 ############################# tree level 6 #############################
 Run xsb recursive query:
@@ -56,7 +56,7 @@ Total Count: 0
 
 %...................................................................................................
 Run sqlite recursive query:
-Run Time: real 0.001 user 0.000336 sys 0.000437
+Run Time: real 0.001 user 0.000498 sys 0.000535
 All descendents of the tree root found
 ############################# tree level 7 #############################
 Run xsb recursive query:
@@ -68,7 +68,7 @@ Total Count: 0
 
 %...................................................................................................
 Run sqlite recursive query:
-Run Time: real 0.001 user 0.000407 sys 0.000414
+Run Time: real 0.001 user 0.000417 sys 0.000378
 All descendents of the tree root found
 ############################# tree level 8 #############################
 Run xsb recursive query:
@@ -80,7 +80,7 @@ Total Count: 0
 
 %...................................................................................................
 Run sqlite recursive query:
-Run Time: real 0.002 user 0.000618 sys 0.000426
+Run Time: real 0.005 user 0.001061 sys 0.000667
 All descendents of the tree root found
 ############################# tree level 9 #############################
 Run xsb recursive query:
@@ -92,7 +92,7 @@ Total Count: 0
 
 %...................................................................................................
 Run sqlite recursive query:
-Run Time: real 0.002 user 0.001074 sys 0.000478
+Run Time: real 0.002 user 0.001092 sys 0.000463
 All descendents of the tree root found
 ############################# tree level 10 #############################
 Run xsb recursive query:
@@ -104,7 +104,7 @@ Total Count: 0
 
 %...................................................................................................
 Run sqlite recursive query:
-Run Time: real 0.003 user 0.002085 sys 0.000536
+Run Time: real 0.003 user 0.002087 sys 0.000498
 All descendents of the tree root found
 ############################# tree level 11 #############################
 Run xsb recursive query:
@@ -116,49 +116,37 @@ Total Count: 0
 
 %...................................................................................................
 Run sqlite recursive query:
-Run Time: real 0.005 user 0.004573 sys 0.000777
+Run Time: real 0.006 user 0.004422 sys 0.000717
 All descendents of the tree root found
 ############################# tree level 12 #############################
 Run xsb recursive query:
 %level_info/level12 statistics
 %...................................................................................................
-PROFILE FOR: tree_downstream(3072,1)  Total cputime: 0.0020 seconds
+PROFILE FOR: tree_downstream(3072,1)  Total cputime: 0.0010 seconds
 
 Total Count: 0
 
 %...................................................................................................
 Run sqlite recursive query:
-Run Time: real 0.011 user 0.009927 sys 0.000719
+Run Time: real 0.012 user 0.010552 sys 0.000925
 All descendents of the tree root found
 ############################# tree level 13 #############################
 Run xsb recursive query:
 %level_info/level13 statistics
 %...................................................................................................
-PROFILE FOR: tree_downstream(6144,1)  Total cputime: 0.0030 seconds
+PROFILE FOR: tree_downstream(6144,1)  Total cputime: 0.0040 seconds
 
 Total Count: 0
 
 %...................................................................................................
 Run sqlite recursive query:
-Run Time: real 0.022 user 0.020547 sys 0.001002
+Run Time: real 0.023 user 0.021233 sys 0.001240
 All descendents of the tree root found
 ############################# tree level 14 #############################
 Run xsb recursive query:
 %level_info/level14 statistics
 %...................................................................................................
-PROFILE FOR: tree_downstream(12288,1)  Total cputime: 0.0060 seconds
-
-Total Count: 0
-
-%...................................................................................................
-Run sqlite recursive query:
-Run Time: real 0.051 user 0.046204 sys 0.001979
-All descendents of the tree root found
-############################# tree level 15 #############################
-Run xsb recursive query:
-%level_info/level15 statistics
-%...................................................................................................
-PROFILE FOR: tree_downstream(24576,1)  Total cputime: 0.0150 seconds
+PROFILE FOR: tree_downstream(12288,1)  Total cputime: 0.0080 seconds
 
 Total Count: 1
 
@@ -169,101 +157,117 @@ Total Count: 1
 100% (1)  usermod
 %...................................................................................................
 Run sqlite recursive query:
-Run Time: real 0.097 user 0.092412 sys 0.002502
+Run Time: real 0.052 user 0.047219 sys 0.002793
 All descendents of the tree root found
-############################# tree level 16 #############################
+############################# tree level 15 #############################
 Run xsb recursive query:
-%level_info/level16 statistics
+%level_info/level15 statistics
 %...................................................................................................
-PROFILE FOR: tree_downstream(49152,1)  Total cputime: 0.0270 seconds
+PROFILE FOR: tree_downstream(24576,1)  Total cputime: 0.0190 seconds
 
 Total Count: 2
 
                     0% (0)  Unknown/?
                     0% (0)  Garbage Collecting/
 0% (0)  Unknown
-                    50% (1)  tree_downstream/2
                     50% (1)  tree_edge/2
+                    50% (1)  tree_downstream/2
 100% (2)  usermod
 %...................................................................................................
 Run sqlite recursive query:
-Run Time: real 0.201 user 0.193863 sys 0.004935
+Run Time: real 0.094 user 0.089425 sys 0.002477
+All descendents of the tree root found
+############################# tree level 16 #############################
+Run xsb recursive query:
+%level_info/level16 statistics
+%...................................................................................................
+PROFILE FOR: tree_downstream(49152,1)  Total cputime: 0.0350 seconds
+
+Total Count: 3
+
+                    0% (0)  Unknown/?
+                    0% (0)  Garbage Collecting/
+0% (0)  Unknown
+                    67% (2)  tree_downstream/2
+                    33% (1)  tree_edge/2
+100% (3)  usermod
+%...................................................................................................
+Run sqlite recursive query:
+Run Time: real 0.201 user 0.192528 sys 0.004858
 All descendents of the tree root found
 ############################# tree level 17 #############################
 Run xsb recursive query:
 %level_info/level17 statistics
 %...................................................................................................
-PROFILE FOR: tree_downstream(98304,1)  Total cputime: 0.0660 seconds
+PROFILE FOR: tree_downstream(98304,1)  Total cputime: 0.0680 seconds
 
 Total Count: 7
 
                     0% (0)  Unknown/?
                     0% (0)  Garbage Collecting/
 0% (0)  Unknown
-                    71% (5)  tree_edge/2
-                    29% (2)  tree_downstream/2
+                    57% (4)  tree_edge/2
+                    43% (3)  tree_downstream/2
 100% (7)  usermod
 %...................................................................................................
 Run sqlite recursive query:
-Run Time: real 0.419 user 0.401214 sys 0.012887
+Run Time: real 0.464 user 0.416473 sys 0.025567
 All descendents of the tree root found
 ############################# tree level 18 #############################
 Run xsb recursive query:
 %level_info/level18 statistics
 %...................................................................................................
-PROFILE FOR: tree_downstream(196608,1)  Total cputime: 0.1240 seconds
+PROFILE FOR: tree_downstream(196608,1)  Total cputime: 0.1460 seconds
 
-Total Count: 13
+Total Count: 16
 
                     0% (0)  Unknown/?
                     0% (0)  Garbage Collecting/
 0% (0)  Unknown
-                    46% (6)  tree_edge/2
-                    46% (6)  tree_downstream/2
-92% (12)  usermod
-                    8% (1)  catch/3
-8% (1)  standard
+                    6% (1)  tree_downstream/2
+                    94% (15)  tree_edge/2
+100% (16)  usermod
 %...................................................................................................
 Run sqlite recursive query:
-Run Time: real 0.843 user 0.799187 sys 0.031057
+Run Time: real 0.934 user 0.858000 sys 0.046592
 All descendents of the tree root found
 ############################# tree level 19 #############################
 Run xsb recursive query:
 %level_info/level19 statistics
 %...................................................................................................
-PROFILE FOR: tree_downstream(393216,1)  Total cputime: 0.2530 seconds
+PROFILE FOR: tree_downstream(393216,1)  Total cputime: 0.3070 seconds
 
-Total Count: 27
+Total Count: 35
 
                     0% (0)  Unknown/?
                     0% (0)  Garbage Collecting/
 0% (0)  Unknown
-                    74% (20)  tree_edge/2
-                    22% (6)  tree_downstream/2
-96% (26)  usermod
-                    4% (1)  catch/3
-4% (1)  standard
+                    63% (22)  tree_edge/2
+                    31% (11)  tree_downstream/2
+94% (33)  usermod
+                    6% (2)  catch/3
+6% (2)  standard
 %...................................................................................................
 Run sqlite recursive query:
-Run Time: real 1.755 user 1.643341 sys 0.077046
+Run Time: real 2.440 user 2.017620 sys 0.192006
 All descendents of the tree root found
 ############################# tree level 20 #############################
 Run xsb recursive query:
 %level_info/level20 statistics
 %...................................................................................................
-PROFILE FOR: tree_downstream(786432,1)  Total cputime: 0.5520 seconds
+PROFILE FOR: tree_downstream(786432,1)  Total cputime: 0.6060 seconds
 
-Total Count: 61
+Total Count: 68
 
                     0% (0)  Unknown/?
                     0% (0)  Garbage Collecting/
 0% (0)  Unknown
-                    69% (42)  tree_edge/2
-                    26% (16)  tree_downstream/2
-95% (58)  usermod
-                    5% (3)  catch/3
-5% (3)  standard
+                    71% (48)  tree_edge/2
+                    28% (19)  tree_downstream/2
+99% (67)  usermod
+                    1% (1)  catch/3
+1% (1)  standard
 %...................................................................................................
 Run sqlite recursive query:
-Run Time: real 3.619 user 3.392648 sys 0.150042
+Run Time: real 3.675 user 3.394371 sys 0.184300
 All descendents of the tree root found

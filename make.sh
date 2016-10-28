@@ -25,9 +25,9 @@ if [ "$1" == "all" ] || [ -z $1 ] ; then
     echo -e "#level\txsb(s)\tsql(s)" | cat - runtime_xsb_sql.txt > temp && mv -f temp runtime_xsb_sql.txt
     rm -rf runtime_levels.txt runtime_xsb.txt runtime_sql.txt
 
-    #plot runtime data and save it into PNG file("tree_level_vs_time.png")
+    #plot runtime data and save it into SVG file("tree_level_vs_time.svg")
     gnuplot plot.gnu
-    open tree_level_vs_time.png
+    open tree_level_vs_time.svg
 else
     echo "############################# tree level $1 #############################"
     echo "Run xsb recursive query:"
